@@ -15,28 +15,28 @@ if __name__ == '__main__':
     if choice == 1:
         print("type the average mark ")
         avg_mark = int(input())
-        student_controller.find_student_by_average_mark(avg_mark)
+        print(student_controller.find_student_by_average_mark(avg_mark))
     elif choice == 2:
         print("type group number ")
         group_number = input()
-        student_controller.find_student_by_group(group_number)
+        print(student_controller.find_student_by_group(group_number))
     elif choice == 3:
         print("type mark ")
         mark = int(input())
         print("type subject ")
         subject = input()
-        student_controller.find_student_by_mark_and_subject(mark, subject)
+        print(student_controller.find_student_by_mark_and_subject(mark, subject))
     elif choice == 4:
         print("type the average mark ")
         avg_mark = int(input())
-        student_controller.delete_student_by_average_mark(avg_mark)
+        print(student_controller.delete_student_by_average_mark(avg_mark))
     elif choice == 5:
         print("type mark ")
         mark = int(input())
         print("type subject ")
         subject = input()
-        student_controller.delete_student_by_mark_and_subject(mark, subject)
+        print(student_controller.delete_student_by_mark_and_subject(mark, subject))
     elif choice == 6:
         print("type group number ")
         group_number = input()
-        student_controller.delete_student_by_group(group_number)
+        print(student_controller.delete_student_by_group(group_number))

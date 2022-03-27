@@ -1,5 +1,9 @@
+import logging
 import xml.sax
 import re
+from typing import List
+
+from model.entity.student import Student
 
 
 class FindStudentExamsHandler(xml.sax.ContentHandler):
@@ -45,6 +49,8 @@ class FindStudentExamsHandler(xml.sax.ContentHandler):
 
 
 class FindStudentByMarkAndSubjectHandler(xml.sax.ContentHandler):
+    students: List[Student] = []
+
     def __init__(self, student_id: str, exam_number: str):
         self._id = ""
         self._current_data = ""
@@ -54,23 +60,32 @@ class FindStudentByMarkAndSubjectHandler(xml.sax.ContentHandler):
         self._student_id = student_id
         self._exam_number = exam_number
         self._is_expected = False
+        self._student = Student()
 
     def startElement(self, tag, attributes):
         self._current_data = tag
 
         if tag == "studentId" and attributes["id"] == self._student_id:
+            self._student.set_id(self._student_id)
             self._is_expected = True
-            print("StudentId: ", self._student_id)
 
     def endElement(self, tag):
         if self._is_expected is True:
             if self._current_data == "surname":
-                print(f"Surname: {self._surname}")
+                self._student.set_surname(self._surname)
             elif self._current_data == "name":
-                print(f"Name: {self._name}")
+                self._student.set_name(self._name)
             elif self._current_data == "succession":
-                print(f"Succession: {self._succession}")
+                self._student.set_succession(self._succession)
 
+                if self._student.get_name() == "":
+                    logging.warning("Name field of id {} is empty!".format(self._student_id))
+                elif self._student.get_surname() == "":
+                    logging.warning("Surname field of id {} is empty!".format(self._student_id))
+                elif self._student.get_succession() == "":
+                    logging.warning("Succession field of id {} is empty!".format(self._student_id))
+
+                FindStudentByMarkAndSubjectHandler.students.append(self._student)
                 self._current_data = ""
                 self._is_expected = False
 

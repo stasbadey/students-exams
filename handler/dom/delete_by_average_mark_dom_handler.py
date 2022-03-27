@@ -2,6 +2,7 @@ from xml.dom import minidom
 
 
 class DeleteByAverageMarkDomHandler:
+
     def __init__(self, student_id: str):
         self._student_id = student_id
 

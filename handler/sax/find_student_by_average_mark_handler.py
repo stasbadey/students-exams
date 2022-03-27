@@ -1,5 +1,9 @@
+import logging
 import re
 import xml.sax
+from typing import List
+
+from model.entity.student import Student
 
 
 class FindAverageMarkHandler(xml.sax.ContentHandler):
@@ -17,8 +21,6 @@ class FindAverageMarkHandler(xml.sax.ContentHandler):
         if tag == "studentId":
             self._id = attributes['id']
 
-    # todo add in xml file <exams amount = 3> and instead of
-    # just 3 parse amount of exams from xml and put there
     def endElement(self, tag):
         if self._current_data == "mark":
             if re.fullmatch(r'^\s*$', self._mark) is None:
@@ -38,6 +40,8 @@ class FindAverageMarkHandler(xml.sax.ContentHandler):
 
 
 class FindByAverageMarkHandler(xml.sax.ContentHandler):
+    students: List[Student] = []
+
     def __init__(self, student_id: str):
         self._current_data = ""
         self._student_id = student_id
@@ -45,23 +49,32 @@ class FindByAverageMarkHandler(xml.sax.ContentHandler):
         self.name = ""
         self.succession = ""
         self.is_expected = False
+        self._student = Student()
 
     def startElement(self, tag, attributes):
         self._current_data = tag
 
         if tag == "studentId" and attributes["id"] == self._student_id:
             self.is_expected = True
-            print("StudentId: ", self._student_id)
+            self._student.set_id(self._student_id)
 
     def endElement(self, tag):
         if self.is_expected is True:
             if self._current_data == "surname":
-                print(f"Surname: {self.surname}")
+                self._student.set_surname(self.surname)
             elif self._current_data == "name":
-                print(f"Name: {self.name}")
+                self._student.set_name(self.name)
             elif self._current_data == "succession":
-                print(f"Succession: {self.succession}")
+                self._student.set_succession(self.succession)
 
+                if self._student.get_name() == "":
+                    logging.warning("Name field of id {} is empty!".format(self._student_id))
+                elif self._student.get_surname() == "":
+                    logging.warning("Surname field of id {} is empty!".format(self._student_id))
+                elif self._student.get_succession() == "":
+                    logging.warning("Succession field is empty!")
+
+                FindByAverageMarkHandler.students.append(self._student)
                 self._current_data = ""
                 self.is_expected = False
 
