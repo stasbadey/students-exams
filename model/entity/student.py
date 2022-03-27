@@ -1,4 +1,4 @@
-class SNS:
+class Student:
     def __init__(self, surname: str, name: str, succession: str):
         self._surname = surname
         self._name = name

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<students>
+        <studentId id = "1">
+            <group number = "021703">
+        <SNS>
+            <surname>Лобановский</surname>
+            <name>Никита</name>
+            <succession>Nikolaevich</succession>
+        </SNS>
+            <exams>
+                <exam number = "1">
+                    <schedule>PPVIS</schedule>
+                    <mark>9</mark>
+                </exam>
+                <exam number = "2">
+                    <schedule>MAOIS</schedule>
+                    <mark>4</mark>
+                </exam>
+                <exam number = "3">
+                    <schedule>MRZVIS</schedule>
+                    <mark>2</mark>
+                </exam>
+            </exams>
+            </group>
+    </studentId>
+    <studentId id = "3">
+        <group number= "021703">
+        <SNS>
+            <surname>Stas</surname>
+            <name>Badey</name>
+            <succession>Stasovich</succession>
+        </SNS>
+        <exams>
+            <exam number = "1">
+                <schedule>MRZVIS</schedule>
+                <mark>4</mark>
+            </exam>
+            <exam number = "2">
+                <schedule>MAOIS</schedule>
+                <mark>4</mark>
+            </exam>
+            <exam number = "3">
+                <schedule>PPVIS</schedule>
+                <mark>9</mark>
+            </exam>
+        </exams>
+        </group>
+    </studentId>
+
+    <studentId id = "4">
+        <group number="021701">
+        <SNS>
+            <surname>Larin</surname>
+            <name>Kirill</name>
+            <succession>Kirillovich</succession>
+        </SNS>
+        <exams>
+            <exam number = "1">
+                <schedule>MAOIS</schedule>
+                <mark>10</mark>
+            </exam>
+            <exam number = "2">
+                <schedule>PPVIS</schedule>
+                <mark>9</mark>
+            </exam>
+            <exam number = "3">
+                <schedule>MRZVIS</schedule>
+                <mark>6</mark>
+            </exam>
+        </exams>
+        </group>
+    </studentId>
+</students>
