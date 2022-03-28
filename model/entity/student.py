@@ -1,8 +1,15 @@
 class Student:
-    def __init__(self, surname: str, name: str, succession: str):
-        self._surname = surname
-        self._name = name
-        self._succession = succession
+    def __init__(self):
+        self._surname = ""
+        self._name = ""
+        self._succession = ""
+        self._id = ""
+
+    def get_id(self) -> str:
+        return self._id
+
+    def set_id(self, id: str) -> None:
+        self._id = id
 
     def get_surname(self) -> str:
         return self._surname
