@@ -1,47 +1,23 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" ?><students>
+        
 
-<students>
-        <studentId id = "1">
-            <group number = "021703">
-        <SNS>
-            <surname>Lobanovsky</surname>
-            <name>Nikita</name>
-            <succession>Nikolaevich</succession>
-        </SNS>
-            <exams>
-                <exam number = "1">
-                    <schedule>PPVIS</schedule>
-                    <mark>9</mark>
-                </exam>
-                <exam number = "2">
-                    <schedule>MAOIS</schedule>
-                    <mark>4</mark>
-                </exam>
-                <exam number = "3">
-                    <schedule>MRZVIS</schedule>
-                    <mark>2</mark>
-                </exam>
-            </exams>
-            </group>
-    </studentId>
-
-    <studentId id = "2">
-        <group number= "021703">
+    <studentId id="2">
+        <group number="021703">
         <SNS>
             <surname>Stas</surname>
             <name>Badey</name>
             <succession>Stasovich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>MRZVIS</schedule>
                 <mark>4</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MAOIS</schedule>
                 <mark>4</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>9</mark>
             </exam>
@@ -49,7 +25,7 @@
         </group>
     </studentId>
 
-    <studentId id = "3">
+    <studentId id="3">
         <group number="021701">
         <SNS>
             <surname>Larin</surname>
@@ -57,15 +33,15 @@
             <succession>Kirillovich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>MAOIS</schedule>
                 <mark>10</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>PPVIS</schedule>
                 <mark>9</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>MRZVIS</schedule>
                 <mark>6</mark>
             </exam>
@@ -74,23 +50,23 @@
         </group>
     </studentId>
 
-    <studentId id = "4">
-            <group number = "021703">
+    <studentId id="4">
+            <group number="021703">
         <SNS>
             <surname>Ozerec</surname>
             <name>Danila</name>
             <succession>Alexsandrovich</succession>
         </SNS>
             <exams>
-                <exam number = "1">
+                <exam number="1">
                     <schedule>MAOIS</schedule>
                     <mark>10</mark>
                 </exam>
-                <exam number = "2">
+                <exam number="2">
                     <schedule>PPVIS</schedule>
                     <mark>9</mark>
                 </exam>
-                <exam number = "3">
+                <exam number="3">
                     <schedule>MRZVIS</schedule>
                     <mark>5</mark>
                 </exam>
@@ -98,23 +74,23 @@
             </group>
     </studentId>
 
-    <studentId id = "5">
-            <group number = "021703">
+    <studentId id="5">
+            <group number="021703">
         <SNS>
             <surname>Rudenko</surname>
             <name>Nikita</name>
             <succession>Sergeevich</succession>
         </SNS>
             <exams>
-                <exam number = "1">
+                <exam number="1">
                     <schedule>MRZVIS</schedule>
                     <mark>4</mark>
                 </exam>
-                <exam number = "2">
+                <exam number="2">
                     <schedule>MAOIS</schedule>
                     <mark>4</mark>
                 </exam>
-                <exam number = "3">
+                <exam number="3">
                     <schedule>PPVIS</schedule>
                     <mark>2</mark>
                 </exam>
@@ -122,47 +98,25 @@
             </group>
     </studentId>
 
-    <studentId id = "6">
-            <group number = "021703">
-        <SNS>
-            <surname>Anishenko</surname>
-            <name>Evgeniy</name>
-            <succession>Alexsandrovich</succession>
-        </SNS>
-            <exams>
-                <exam number = "1">
-                    <schedule>MRZVIS</schedule>
-                    <mark>5</mark>
-                </exam>
-                <exam number = "2">
-                    <schedule>MAOIS</schedule>
-                    <mark>6</mark>
-                </exam>
-                <exam number = "3">
-                    <schedule>PPVIS</schedule>
-                    <mark>5</mark>
-                </exam>
-            </exams>
-            </group>
-    </studentId>
+    
 
-    <studentId id = "7">
-            <group number = "021703">
+    <studentId id="7">
+            <group number="021703">
         <SNS>
             <surname>Chizh</surname>
             <name>Gleb</name>
             <succession>Igorevich</succession>
         </SNS>
             <exams>
-                <exam number = "1">
+                <exam number="1">
                     <schedule>MAOIS</schedule>
                     <mark>9</mark>
                 </exam>
-                <exam number = "2">
+                <exam number="2">
                     <schedule>MRZVIS</schedule>
                     <mark>9</mark>
                 </exam>
-                <exam number = "3">
+                <exam number="3">
                     <schedule>PPVIS</schedule>
                     <mark>9</mark>
                 </exam>
@@ -170,23 +124,23 @@
             </group>
     </studentId>
 
-    <studentId id = "8">
-            <group number = "021703">
+    <studentId id="8">
+            <group number="021703">
         <SNS>
             <surname>Kulak</surname>
             <name>Proxor</name>
             <succession>Olegovich</succession>
         </SNS>
             <exams>
-                <exam number = "1">
+                <exam number="1">
                     <schedule>MRZVIS</schedule>
                     <mark>9</mark>
                 </exam>
-                <exam number = "2">
+                <exam number="2">
                     <schedule>MAOIS</schedule>
                     <mark>6</mark>
                 </exam>
-                <exam number = "3">
+                <exam number="3">
                     <schedule>PPVIS</schedule>
                     <mark>8</mark>
                 </exam>
@@ -194,23 +148,23 @@
             </group>
     </studentId>
 
-    <studentId id = "9">
-            <group number = "021703">
+    <studentId id="9">
+            <group number="021703">
         <SNS>
             <surname>Volkov</surname>
             <name>Ivan</name>
             <succession>Igorevich</succession>
         </SNS>
             <exams>
-                <exam number = "1">
+                <exam number="1">
                     <schedule>MRZVIS</schedule>
                     <mark>6</mark>
                 </exam>
-                <exam number = "2">
+                <exam number="2">
                     <schedule>MAOIS</schedule>
                     <mark>5</mark>
                 </exam>
-                <exam number = "3">
+                <exam number="3">
                     <schedule>PPVIS</schedule>
                     <mark>10</mark>
                 </exam>
@@ -218,23 +172,23 @@
             </group>
     </studentId>
 
-    <studentId id = "10">
-            <group number = "021703">
+    <studentId id="10">
+            <group number="021703">
         <SNS>
             <surname>Voropaev</surname>
             <name>Andrey</name>
             <succession>Alexsandrovich</succession>
         </SNS>
             <exams>
-                <exam number = "1">
+                <exam number="1">
                     <schedule>PPVIS</schedule>
                     <mark>9</mark>
                 </exam>
-                <exam number = "2">
+                <exam number="2">
                     <schedule>MAOIS</schedule>
                     <mark>9</mark>
                 </exam>
-                <exam number = "3">
+                <exam number="3">
                     <schedule>MRZVIS</schedule>
                     <mark>10</mark>
                 </exam>
@@ -242,23 +196,23 @@
             </group>
     </studentId>
 
-    <studentId id = "11">
-            <group number = "021703">
+    <studentId id="11">
+            <group number="021703">
         <SNS>
             <surname>Glekov</surname>
             <name>Alexsandr</name>
             <succession>Andreevich</succession>
         </SNS>
             <exams>
-                <exam number = "1">
+                <exam number="1">
                     <schedule>MAOIS</schedule>
                     <mark>6</mark>
                 </exam>
-                <exam number = "2">
+                <exam number="2">
                     <schedule>MRZVIS</schedule>
                     <mark>9</mark>
                 </exam>
-                <exam number = "3">
+                <exam number="3">
                     <schedule>PPVIS</schedule>
                     <mark>9</mark>
                 </exam>
@@ -266,23 +220,23 @@
             </group>
     </studentId>
 
-    <studentId id = "12">
-            <group number = "021703">
+    <studentId id="12">
+            <group number="021703">
         <SNS>
             <surname>Dubrovskaya</surname>
             <name>Irina</name>
             <succession>Dmitrievna</succession>
         </SNS>
             <exams>
-                <exam number = "1">
+                <exam number="1">
                     <schedule>PPVIS</schedule>
                     <mark>10</mark>
                 </exam>
-                <exam number = "2">
+                <exam number="2">
                     <schedule>MRZVIS</schedule>
                     <mark>10</mark>
                 </exam>
-                <exam number = "3">
+                <exam number="3">
                     <schedule>MAOIS</schedule>
                     <mark>6</mark>
                 </exam>
@@ -290,23 +244,23 @@
             </group>
     </studentId>
 
-    <studentId id = "13">
-            <group number = "021703">
+    <studentId id="13">
+            <group number="021703">
         <SNS>
             <surname>Kozevnikova</surname>
             <name>Anna</name>
             <succession>Igorevna</succession>
         </SNS>
             <exams>
-                <exam number = "1">
+                <exam number="1">
                     <schedule>MAOIS</schedule>
                     <mark>9</mark>
                 </exam>
-                <exam number = "2">
+                <exam number="2">
                     <schedule>PPVIS</schedule>
                     <mark>10</mark>
                 </exam>
-                <exam number = "3">
+                <exam number="3">
                     <schedule>MRZVIS</schedule>
                     <mark>5</mark>
                 </exam>
@@ -314,23 +268,23 @@
             </group>
     </studentId>
 
-    <studentId id = "14">
-            <group number = "021703">
+    <studentId id="14">
+            <group number="021703">
         <SNS>
             <surname>Kozemiako</surname>
             <name>Nikita</name>
             <succession>Victorovich</succession>
         </SNS>
             <exams>
-                <exam number = "1">
+                <exam number="1">
                     <schedule>MRZVIS</schedule>
                     <mark>7</mark>
                 </exam>
-                <exam number = "2">
+                <exam number="2">
                     <schedule>MAOIS</schedule>
                     <mark>7</mark>
                 </exam>
-                <exam number = "3">
+                <exam number="3">
                     <schedule>PPVIS</schedule>
                     <mark>7</mark>
                 </exam>
@@ -338,23 +292,23 @@
             </group>
     </studentId>
 
-    <studentId id = "15">
-            <group number = "021703">
+    <studentId id="15">
+            <group number="021703">
         <SNS>
             <surname>Kolosovskiy</surname>
             <name>Egor</name>
             <succession>Sergeevich</succession>
         </SNS>
             <exams>
-                <exam number = "1">
+                <exam number="1">
                     <schedule>MAOIS</schedule>
                     <mark>7</mark>
                 </exam>
-                <exam number = "2">
+                <exam number="2">
                     <schedule>MRZVIS</schedule>
                     <mark>8</mark>
                 </exam>
-                <exam number = "3">
+                <exam number="3">
                     <schedule>PPVIS</schedule>
                     <mark>4</mark>
                 </exam>
@@ -362,7 +316,7 @@
             </group>
     </studentId>
 
-    <studentId id = "16">
+    <studentId id="16">
         <group number="021701">
         <SNS>
             <surname>Garist</surname>
@@ -370,15 +324,15 @@
             <succession>Andreevich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>SOMOIB</schedule>
                 <mark>5</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>PPVIS</schedule>
                 <mark>6</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>MRZVIS</schedule>
                 <mark>8</mark>
             </exam>
@@ -387,7 +341,7 @@
         </group>
     </studentId>
 
-    <studentId id = "17">
+    <studentId id="17">
         <group number="021701">
         <SNS>
             <surname>Dydko</surname>
@@ -395,15 +349,15 @@
             <succession>Vasilevich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>PPVIS</schedule>
                 <mark>8</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MAOIS</schedule>
                 <mark>7</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>MRZVIS</schedule>
                 <mark>8</mark>
             </exam>
@@ -412,7 +366,7 @@
         </group>
     </studentId>
 
-    <studentId id = "18">
+    <studentId id="18">
         <group number="021701">
         <SNS>
             <surname>Diatel</surname>
@@ -420,15 +374,15 @@
             <succession>Dmitrovich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>MAOIS</schedule>
                 <mark>6</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>7</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>6</mark>
             </exam>
@@ -437,7 +391,7 @@
         </group>
     </studentId>
 
-    <studentId id = "19">
+    <studentId id="19">
         <group number="021701">
         <SNS>
             <surname>Karachyn</surname>
@@ -445,15 +399,15 @@
             <succession>Dmitrovich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>MAOIS</schedule>
                 <mark>9</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>PPVIS</schedule>
                 <mark>5</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>MRZVIS</schedule>
                 <mark>4</mark>
             </exam>
@@ -462,7 +416,7 @@
         </group>
     </studentId>
 
-    <studentId id = "20">
+    <studentId id="20">
         <group number="021701">
         <SNS>
             <surname>Konovalov</surname>
@@ -470,15 +424,15 @@
             <succession>Kirillovich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>MAOIS</schedule>
                 <mark>10</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>PPVIS</schedule>
                 <mark>4</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>SIMOIB</schedule>
                 <mark>6</mark>
             </exam>
@@ -487,7 +441,7 @@
         </group>
     </studentId>
 
-    <studentId id = "21">
+    <studentId id="21">
         <group number="021701">
         <SNS>
             <surname>Krasotskiy</surname>
@@ -495,15 +449,15 @@
             <succession>Denisovich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>MAOIS</schedule>
                 <mark>7</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>SIMOIB</schedule>
                 <mark>6</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>MRZVIS</schedule>
                 <mark>5</mark>
             </exam>
@@ -512,7 +466,7 @@
         </group>
     </studentId>
 
-    <studentId id = "22">
+    <studentId id="22">
         <group number="021701">
         <SNS>
             <surname>Leleko</surname>
@@ -520,15 +474,15 @@
             <succession>Andreevich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>MAOIS</schedule>
                 <mark>4</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>PPVIS</schedule>
                 <mark>10</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>MRZVIS</schedule>
                 <mark>7</mark>
             </exam>
@@ -537,7 +491,7 @@
         </group>
     </studentId>
 
-    <studentId id = "23">
+    <studentId id="23">
         <group number="021701">
         <SNS>
             <surname>Lemeshevskiy</surname>
@@ -545,15 +499,15 @@
             <succession>Andreevich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>SIMOIB</schedule>
                 <mark>9</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>9</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>5</mark>
             </exam>
@@ -562,7 +516,7 @@
         </group>
     </studentId>
 
-    <studentId id = "24">
+    <studentId id="24">
         <group number="021701">
         <SNS>
             <surname>Linkevich</surname>
@@ -570,15 +524,15 @@
             <succession>Vasilievich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>SIMOIB</schedule>
                 <mark>10</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>9</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>9</mark>
             </exam>
@@ -587,7 +541,7 @@
         </group>
     </studentId>
 
-    <studentId id = "25">
+    <studentId id="25">
         <group number="021701">
         <SNS>
             <surname>Malaev</surname>
@@ -595,15 +549,15 @@
             <succession>Andreevich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>MAOIS</schedule>
                 <mark>4</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>4</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>5</mark>
             </exam>
@@ -612,32 +566,9 @@
         </group>
     </studentId>
 
-    <studentId id = "26">
-        <group number="021701">
-        <SNS>
-            <surname>Narush</surname>
-            <name>Darya</name>
-            <succession>Aleksandrova</succession>
-        </SNS>
-        <exams>
-            <exam number = "1">
-                <schedule>MAOIS</schedule>
-                <mark>4</mark>
-            </exam>
-            <exam number = "2">
-                <schedule>PPVIS</schedule>
-                <mark>6</mark>
-            </exam>
-            <exam number = "3">
-                <schedule>MRZVIS</schedule>
-                <mark>5</mark>
-            </exam>
+    
 
-        </exams>
-        </group>
-    </studentId>
-
-    <studentId id = "27">
+    <studentId id="27">
         <group number="021701">
         <SNS>
             <surname>Nasevich</surname>
@@ -645,15 +576,15 @@
             <succession>Evgenievich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>SIMOIB</schedule>
                 <mark>9</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>8</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>4</mark>
             </exam>
@@ -662,7 +593,7 @@
         </group>
     </studentId>
 
-    <studentId id = "28">
+    <studentId id="28">
         <group number="021701">
         <SNS>
             <surname>Osenko</surname>
@@ -670,15 +601,15 @@
             <succession>Dmitrievich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>MRZVIS</schedule>
                 <mark>6</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>SIMOIB</schedule>
                 <mark>9</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>5</mark>
             </exam>
@@ -687,7 +618,7 @@
         </group>
     </studentId>
 
-    <studentId id = "29">
+    <studentId id="29">
         <group number="021701">
         <SNS>
             <surname>Protas</surname>
@@ -695,15 +626,15 @@
             <succession>Alexsandrovich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>SIMOIB</schedule>
                 <mark>9</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>10</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>7</mark>
             </exam>
@@ -712,7 +643,7 @@
         </group>
     </studentId>
 
-    <studentId id = "30">
+    <studentId id="30">
         <group number="021701">
         <SNS>
             <surname>Samchyk</surname>
@@ -720,15 +651,15 @@
             <succession>ALeksandrovich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>MAOIS</schedule>
                 <mark>9</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>SIMOIB</schedule>
                 <mark>9</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>5</mark>
             </exam>
@@ -738,7 +669,7 @@
         </group>
     </studentId>
 
-    <studentId id = "31">
+    <studentId id="31">
         <group number="021701">
         <SNS>
             <surname>Skripko</surname>
@@ -746,15 +677,15 @@
             <succession>Olegovich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>SIMOIB</schedule>
                 <mark>4</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>7</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>9</mark>
             </exam>
@@ -764,7 +695,7 @@
         </group>
     </studentId>
 
-    <studentId id = "32">
+    <studentId id="32">
         <group number="021701">
         <SNS>
             <surname>Filippov</surname>
@@ -772,15 +703,15 @@
             <succession>Alekseevich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>PPVIS</schedule>
                 <mark>4</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>4</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>SIMOIB</schedule>
                 <mark>5</mark>
             </exam>
@@ -789,7 +720,7 @@
         </group>
     </studentId>
 
-    <studentId id = "33">
+    <studentId id="33">
         <group number="021702">
         <SNS>
             <surname>Belik</surname>
@@ -797,15 +728,15 @@
             <succession>Alexsandrovich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>SIMOIB</schedule>
                 <mark>8</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>8</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>6</mark>
             </exam>
@@ -814,7 +745,7 @@
         </group>
     </studentId>
 
-    <studentId id = "34">
+    <studentId id="34">
         <group number="021702">
         <SNS>
             <surname>Gyrinovich</surname>
@@ -822,15 +753,15 @@
             <succession>Alexsandrovich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>OTS</schedule>
                 <mark>10</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>4</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>4</mark>
             </exam>
@@ -839,7 +770,7 @@
         </group>
     </studentId>
 
-    <studentId id = "35">
+    <studentId id="35">
         <group number="021702">
         <SNS>
             <surname>Kavkov</surname>
@@ -847,15 +778,15 @@
             <succession>Andreevich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>MRZVIS</schedule>
                 <mark>9</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>SIMOIB</schedule>
                 <mark>9</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>10</mark>
             </exam>
@@ -864,7 +795,7 @@
         </group>
     </studentId>
 
-    <studentId id = "36">
+    <studentId id="36">
         <group number="021702">
         <SNS>
             <surname>Karpenko</surname>
@@ -872,15 +803,15 @@
             <succession>Alexsandrovna</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>SIMOIB</schedule>
                 <mark>9</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>8</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>OTS</schedule>
                 <mark>6</mark>
             </exam>
@@ -889,7 +820,7 @@
         </group>
     </studentId>
 
-    <studentId id = "37">
+    <studentId id="37">
         <group number="021702">
         <SNS>
             <surname>Kyrdesov</surname>
@@ -897,15 +828,15 @@
             <succession>Andreevich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>SIMOIB</schedule>
                 <mark>8</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>6</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>7</mark>
             </exam>
@@ -914,7 +845,7 @@
         </group>
     </studentId>
 
-    <studentId id = "38">
+    <studentId id="38">
         <group number="021702">
         <SNS>
             <surname>Leshko</surname>
@@ -922,15 +853,15 @@
             <succession>Sergeevich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>MAOIS</schedule>
                 <mark>10</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>OTS</schedule>
                 <mark>4</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>5</mark>
             </exam>
@@ -939,7 +870,7 @@
         </group>
     </studentId>
 
-    <studentId id = "39">
+    <studentId id="39">
         <group number="021702">
         <SNS>
             <surname>Loktev</surname>
@@ -947,15 +878,15 @@
             <succession>Alekseevich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>SIMOIB</schedule>
                 <mark>7</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>OTS</schedule>
                 <mark>7</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>7</mark>
             </exam>
@@ -964,7 +895,7 @@
         </group>
     </studentId>
 
-    <studentId id = "40">
+    <studentId id="40">
         <group number="021702">
         <SNS>
             <surname>Loktionov</surname>
@@ -972,15 +903,15 @@
             <succession>Artyrovich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>SIMOIB</schedule>
                 <mark>8</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>4</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>OTS</schedule>
                 <mark>5</mark>
             </exam>
@@ -989,7 +920,7 @@
         </group>
     </studentId>
 
-    <studentId id = "41">
+    <studentId id="41">
         <group number="021702">
         <SNS>
             <surname>Makarevich</surname>
@@ -997,15 +928,15 @@
             <succession>Sergeevna</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>SIMOIB</schedule>
                 <mark>4</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>4</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>9</mark>
             </exam>
@@ -1014,7 +945,7 @@
         </group>
     </studentId>
 
-    <studentId id = "42">
+    <studentId id="42">
         <group number="021702">
         <SNS>
             <surname>Maxnach</surname>
@@ -1022,15 +953,15 @@
             <succession>Alexsandrovich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>SIMOIB</schedule>
                 <mark>8</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>8</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>6</mark>
             </exam>
@@ -1039,7 +970,7 @@
         </group>
     </studentId>
 
-    <studentId id = "43">
+    <studentId id="43">
         <group number="021702">
         <SNS>
             <surname>Pich</surname>
@@ -1047,15 +978,15 @@
             <succession>Ivanovich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>SIMOIB</schedule>
                 <mark>10</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>9</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>OTS</schedule>
                 <mark>4</mark>
             </exam>
@@ -1064,32 +995,9 @@
         </group>
     </studentId>
 
-    <studentId id = "44">
-        <group number="021702">
-        <SNS>
-            <surname>Rebo</surname>
-            <name>Aleksandra</name>
-            <succession>Lvovna</succession>
-        </SNS>
-        <exams>
-            <exam number = "1">
-                <schedule>SIMOIB</schedule>
-                <mark>5</mark>
-            </exam>
-            <exam number = "2">
-                <schedule>MRZVIS</schedule>
-                <mark>4</mark>
-            </exam>
-            <exam number = "3">
-                <schedule>PPVIS</schedule>
-                <mark>5</mark>
-            </exam>
+    
 
-        </exams>
-        </group>
-    </studentId>
-
-    <studentId id = "45">
+    <studentId id="45">
         <group number="021702">
         <SNS>
             <surname>Sviridova</surname>
@@ -1097,15 +1005,15 @@
             <succession>Olegovna</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>OTS</schedule>
                 <mark>8</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>8</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>6</mark>
             </exam>
@@ -1114,7 +1022,7 @@
         </group>
     </studentId>
 
-    <studentId id = "46">
+    <studentId id="46">
         <group number="021702">
         <SNS>
             <surname>Semchenko</surname>
@@ -1122,15 +1030,15 @@
             <succession>Andreevich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>PPVIS</schedule>
                 <mark>4</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>5</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>SIMOIB</schedule>
                 <mark>10</mark>
             </exam>
@@ -1139,7 +1047,7 @@
         </group>
     </studentId>
 
-    <studentId id = "47">
+    <studentId id="47">
         <group number="021702">
         <SNS>
             <surname>Iackova</surname>
@@ -1147,15 +1055,15 @@
             <succession>Valerievna</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>SIMOIB</schedule>
                 <mark>9</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>OTS</schedule>
                 <mark>9</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>6</mark>
             </exam>
@@ -1164,7 +1072,7 @@
         </group>
     </studentId>
 
-    <studentId id = "48">
+    <studentId id="48">
         <group number="021702">
         <SNS>
             <surname>Laptev</surname>
@@ -1172,15 +1080,15 @@
             <succession>Dmitrievich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>MAOIS</schedule>
                 <mark>4</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>MRZVIS</schedule>
                 <mark>10</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>8</mark>
             </exam>
@@ -1189,7 +1097,7 @@
         </group>
     </studentId>
 
-    <studentId id = "49">
+    <studentId id="49">
         <group number="021702">
         <SNS>
             <surname>Rasolko</surname>
@@ -1197,15 +1105,15 @@
             <succession>Sergeevich</succession>
         </SNS>
         <exams>
-            <exam number = "1">
+            <exam number="1">
                 <schedule>MRZVIS</schedule>
                 <mark>7</mark>
             </exam>
-            <exam number = "2">
+            <exam number="2">
                 <schedule>SIMOIB</schedule>
                 <mark>7</mark>
             </exam>
-            <exam number = "3">
+            <exam number="3">
                 <schedule>PPVIS</schedule>
                 <mark>10</mark>
             </exam>
@@ -1214,28 +1122,5 @@
         </group>
     </studentId>
 
-    <studentId id = "50">
-        <group number="021702">
-        <SNS>
-            <surname>Soldatenkov</surname>
-            <name>Egor</name>
-            <succession>Dmitrievich</succession>
-        </SNS>
-        <exams>
-            <exam number = "1">
-                <schedule>SIMOIB</schedule>
-                <mark>6</mark>
-            </exam>
-            <exam number = "2">
-                <schedule>MRZVIS</schedule>
-                <mark>4</mark>
-            </exam>
-            <exam number = "3">
-                <schedule>MAOIS</schedule>
-                <mark>5</mark>
-            </exam>
-
-        </exams>
-        </group>
-    </studentId>
+    
 </students>
