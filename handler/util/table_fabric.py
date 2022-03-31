@@ -20,8 +20,6 @@ class TableFabric:
             studs.append(a)
             s.clear()
 
-
-        print(studs)
         return tabulate(studs, headers=head, tablefmt="grid", stralign="center")
 
     @staticmethod

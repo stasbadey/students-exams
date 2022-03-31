@@ -33,7 +33,7 @@ class StudentControllerImpl(StudentController):
 
         self._parse_students_exams_from_dict(handler.get_students_exams())
 
-        return TableFabric.student_table_creator(FindByAverageMarkHandler.students)
+        return TableFabric.student_table_creator(FindStudentByMarkAndSubjectHandler.students)
 
     def find_student_by_group(self, group_number: str) -> List[Student]:
         handler = FindStudentByNumberOfGroupHandler(group_number)

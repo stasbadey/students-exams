@@ -1,3 +1,4 @@
+import copy
 import logging
 import xml.sax
 from typing import List
@@ -45,7 +46,8 @@ class FindStudentByNumberOfGroupHandler(xml.sax.ContentHandler):
                 elif self._student.get_succession() == "":
                     logging.warning("Succession field of id {} is empty!".format(self._student_id))
 
-                FindStudentByNumberOfGroupHandler.students.append(self._student)
+                student_copy = copy.copy(self._student)
+                FindStudentByNumberOfGroupHandler.students.append(student_copy)
                 self._is_expected = False
                 self._current_data = ""
 

@@ -1,3 +1,4 @@
+import copy
 import logging
 import re
 import xml.sax
@@ -74,7 +75,8 @@ class FindByAverageMarkHandler(xml.sax.ContentHandler):
                 elif self._student.get_succession() == "":
                     logging.warning("Succession field is empty!")
 
-                FindByAverageMarkHandler.students.append(self._student)
+                student_copy = copy.copy(self._student)
+                FindByAverageMarkHandler.students.append(student_copy)
                 self._current_data = ""
                 self.is_expected = False
 

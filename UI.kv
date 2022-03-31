@@ -13,7 +13,10 @@ WindowManager:
 
     FloatLayout:
 
-
+        Label:
+            text: 'Student exams'
+            font_size: 25
+            size_hint: 1, 1.2
         Button:
             text:'GO'
             font_size: 20
@@ -32,8 +35,9 @@ WindowManager:
 
         Label:
             id: output
-            size_hint: 0.6, 0.5
-            pos_hint: {"x": 0.2, 'y': 0.35}
+            text: 'Select function'
+            size_hint: 1, 1.2
+            font_size: 25
 
         Button:
             text:'average mark'
@@ -62,26 +66,22 @@ WindowManager:
 
 
 
-
-
-
 <ByAverageMarkScreen>:
 
     name: 'ByAverageMarkScreen'
     label_av: main
     input: average_mark
-
+    label_check: label_out
 
 
     FloatLayout:
 
 
         ScrollView:
-            #size_hint_y: 1
-            #size_hint_x: 0.9
+
             size_hint: (None, None)
-            size: (1050, 500)
-            pos_hint: {"x": 0.17, 'y': 0.3}
+            size: (500, 450)
+            pos_hint: {"x": 0.36, 'y': 0.35}
             Label:
                 id: main
                 text: ""
@@ -97,14 +97,25 @@ WindowManager:
                     Rectangle:
                         size: self.size
                         pos: self.pos
-
-
+        Label:
+            id: label_out
+            text: ""
+            size_hint: 0.32, 0.04
+            pos_hint: {"x": 0.34, 'y': 0.18}
+            background_color: (0, 0, 0, 0.1)
+            canvas.before:
+                Color:
+                    rgba: self.background_color
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
 
         TextInput:
             id: average_mark
             hint_text:'Enter average mark'
-            pos_hint: {'x': 0.3, 'y': 0.2}
+            pos_hint: {'x': 0.3, 'y': 0.23}
             size_hint: 0.4, 0.1
+
 
         Button:
             text: 'Search'
@@ -126,6 +137,14 @@ WindowManager:
             pos_hint: {'x': 0.85, 'y': 0.9}
             on_press:
                 root.manager.current='ChoiceScreen'
+                root.clear()
+
+        Button:
+            text:'Clear'
+            size_hint: (0.1,0.05)
+            pos_hint: {'x': 0.85, 'y': 0.83}
+            on_press:
+                root.clear()
 
 
 
@@ -135,15 +154,15 @@ WindowManager:
     name: 'ByNumberOfGroupScreen'
     label_av: main
     input: number_of_group
+    label_check: label_out
 
     FloatLayout:
 
         ScrollView:
-            #size_hint_y: 1
-            #size_hint_x: 0.9
+
             size_hint: (None, None)
-            size: (1050, 500)
-            pos_hint: {"x": 0.17, 'y': 0.3}
+            size: (500, 450)
+            pos_hint: {"x": 0.36, 'y': 0.35}
             Label:
                 id: main
                 text: ""
@@ -161,10 +180,23 @@ WindowManager:
                         pos: self.pos
 
 
+        Label:
+            id: label_out
+            text: ""
+            size_hint: 0.32, 0.04
+            pos_hint: {"x": 0.34, 'y': 0.18}
+            background_color: (0, 0, 0, 0.1)
+            canvas.before:
+                Color:
+                    rgba: self.background_color
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+
         TextInput:
             id: number_of_group
-            hint_text:'Enter number of group'
-            pos_hint: {'x': 0.3, 'y': 0.2}
+            hint_text:'Enter average mark'
+            pos_hint: {'x': 0.3, 'y': 0.23}
             size_hint: 0.4, 0.1
 
         Button:
@@ -187,6 +219,14 @@ WindowManager:
             pos_hint: {'x': 0.85, 'y': 0.9}
             on_press:
                 root.manager.current='ChoiceScreen'
+                root.clear()
+
+        Button:
+            text:'Clear'
+            size_hint: (0.1,0.05)
+            pos_hint: {'x': 0.85, 'y': 0.83}
+            on_press:
+                root.clear()
 
 
 
@@ -196,16 +236,16 @@ WindowManager:
     label_av: main
     input_mark: mark
     input_subject: subject
+    label_check: label_out
 
     FloatLayout:
 
 
         ScrollView:
-            #size_hint_y: 1
-            #size_hint_x: 0.9
+
             size_hint: (None, None)
-            size: (1050, 500)
-            pos_hint: {"x": 0.17, 'y': 0.3}
+            size: (500, 450)
+            pos_hint: {"x": 0.36, 'y': 0.35}
             Label:
                 id: main
                 text: ""
@@ -223,16 +263,29 @@ WindowManager:
                         pos: self.pos
 
 
+        Label:
+            id: label_out
+            text: ""
+            size_hint: 0.32, 0.04
+            pos_hint: {"x": 0.34, 'y': 0.18}
+            background_color: (0, 0, 0, 0.1)
+            canvas.before:
+                Color:
+                    rgba: self.background_color
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+
         TextInput:
             id: mark
-            hint_text:'Enter mark'
-            pos_hint: {'x': 0.3, 'y': 0.275}
+            hint_text:'Enter average mark'
+            pos_hint: {'x': 0.3, 'y': 0.29}
             size_hint: 0.4, 0.05
 
         TextInput:
             id: subject
             hint_text:'Enter subject'
-            pos_hint: {'x': 0.3, 'y': 0.2}
+            pos_hint: {'x': 0.3, 'y': 0.23}
             size_hint: 0.4, 0.05
 
         Button:
@@ -255,3 +308,11 @@ WindowManager:
             pos_hint: {'x': 0.85, 'y': 0.9}
             on_press:
                 root.manager.current='ChoiceScreen'
+                root.clear()
+
+        Button:
+            text:'Clear'
+            size_hint: (0.1,0.05)
+            pos_hint: {'x': 0.85, 'y': 0.83}
+            on_press:
+                root.clear()

@@ -1,3 +1,4 @@
+import copy
 import logging
 import xml.sax
 import re
@@ -85,7 +86,8 @@ class FindStudentByMarkAndSubjectHandler(xml.sax.ContentHandler):
                 elif self._student.get_succession() == "":
                     logging.warning("Succession field of id {} is empty!".format(self._student_id))
 
-                FindStudentByMarkAndSubjectHandler.students.append(self._student)
+                student_copy = copy.copy(self._student)
+                FindStudentByMarkAndSubjectHandler.students.append(student_copy)
                 self._current_data = ""
                 self._is_expected = False
 

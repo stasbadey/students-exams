@@ -1,29 +1,7 @@
 <?xml version="1.0" ?><students>
         
 
-    <studentId id="2">
-        <group number="021703">
-        <SNS>
-            <surname>Stas</surname>
-            <name>Badey</name>
-            <succession>Stasovich</succession>
-        </SNS>
-        <exams>
-            <exam number="1">
-                <schedule>MRZVIS</schedule>
-                <mark>4</mark>
-            </exam>
-            <exam number="2">
-                <schedule>MAOIS</schedule>
-                <mark>4</mark>
-            </exam>
-            <exam number="3">
-                <schedule>PPVIS</schedule>
-                <mark>9</mark>
-            </exam>
-        </exams>
-        </group>
-    </studentId>
+    
 
     <studentId id="3">
         <group number="021701">
@@ -50,271 +28,29 @@
         </group>
     </studentId>
 
-    <studentId id="4">
-            <group number="021703">
-        <SNS>
-            <surname>Ozerec</surname>
-            <name>Danila</name>
-            <succession>Alexsandrovich</succession>
-        </SNS>
-            <exams>
-                <exam number="1">
-                    <schedule>MAOIS</schedule>
-                    <mark>10</mark>
-                </exam>
-                <exam number="2">
-                    <schedule>PPVIS</schedule>
-                    <mark>9</mark>
-                </exam>
-                <exam number="3">
-                    <schedule>MRZVIS</schedule>
-                    <mark>5</mark>
-                </exam>
-            </exams>
-            </group>
-    </studentId>
-
-    <studentId id="5">
-            <group number="021703">
-        <SNS>
-            <surname>Rudenko</surname>
-            <name>Nikita</name>
-            <succession>Sergeevich</succession>
-        </SNS>
-            <exams>
-                <exam number="1">
-                    <schedule>MRZVIS</schedule>
-                    <mark>4</mark>
-                </exam>
-                <exam number="2">
-                    <schedule>MAOIS</schedule>
-                    <mark>4</mark>
-                </exam>
-                <exam number="3">
-                    <schedule>PPVIS</schedule>
-                    <mark>2</mark>
-                </exam>
-            </exams>
-            </group>
-    </studentId>
+    
 
     
 
-    <studentId id="7">
-            <group number="021703">
-        <SNS>
-            <surname>Chizh</surname>
-            <name>Gleb</name>
-            <succession>Igorevich</succession>
-        </SNS>
-            <exams>
-                <exam number="1">
-                    <schedule>MAOIS</schedule>
-                    <mark>9</mark>
-                </exam>
-                <exam number="2">
-                    <schedule>MRZVIS</schedule>
-                    <mark>9</mark>
-                </exam>
-                <exam number="3">
-                    <schedule>PPVIS</schedule>
-                    <mark>9</mark>
-                </exam>
-            </exams>
-            </group>
-    </studentId>
+    
 
-    <studentId id="8">
-            <group number="021703">
-        <SNS>
-            <surname>Kulak</surname>
-            <name>Proxor</name>
-            <succession>Olegovich</succession>
-        </SNS>
-            <exams>
-                <exam number="1">
-                    <schedule>MRZVIS</schedule>
-                    <mark>9</mark>
-                </exam>
-                <exam number="2">
-                    <schedule>MAOIS</schedule>
-                    <mark>6</mark>
-                </exam>
-                <exam number="3">
-                    <schedule>PPVIS</schedule>
-                    <mark>8</mark>
-                </exam>
-            </exams>
-            </group>
-    </studentId>
+    
 
-    <studentId id="9">
-            <group number="021703">
-        <SNS>
-            <surname>Volkov</surname>
-            <name>Ivan</name>
-            <succession>Igorevich</succession>
-        </SNS>
-            <exams>
-                <exam number="1">
-                    <schedule>MRZVIS</schedule>
-                    <mark>6</mark>
-                </exam>
-                <exam number="2">
-                    <schedule>MAOIS</schedule>
-                    <mark>5</mark>
-                </exam>
-                <exam number="3">
-                    <schedule>PPVIS</schedule>
-                    <mark>10</mark>
-                </exam>
-            </exams>
-            </group>
-    </studentId>
+    
 
-    <studentId id="10">
-            <group number="021703">
-        <SNS>
-            <surname>Voropaev</surname>
-            <name>Andrey</name>
-            <succession>Alexsandrovich</succession>
-        </SNS>
-            <exams>
-                <exam number="1">
-                    <schedule>PPVIS</schedule>
-                    <mark>9</mark>
-                </exam>
-                <exam number="2">
-                    <schedule>MAOIS</schedule>
-                    <mark>9</mark>
-                </exam>
-                <exam number="3">
-                    <schedule>MRZVIS</schedule>
-                    <mark>10</mark>
-                </exam>
-            </exams>
-            </group>
-    </studentId>
+    
 
-    <studentId id="11">
-            <group number="021703">
-        <SNS>
-            <surname>Glekov</surname>
-            <name>Alexsandr</name>
-            <succession>Andreevich</succession>
-        </SNS>
-            <exams>
-                <exam number="1">
-                    <schedule>MAOIS</schedule>
-                    <mark>6</mark>
-                </exam>
-                <exam number="2">
-                    <schedule>MRZVIS</schedule>
-                    <mark>9</mark>
-                </exam>
-                <exam number="3">
-                    <schedule>PPVIS</schedule>
-                    <mark>9</mark>
-                </exam>
-            </exams>
-            </group>
-    </studentId>
+    
 
-    <studentId id="12">
-            <group number="021703">
-        <SNS>
-            <surname>Dubrovskaya</surname>
-            <name>Irina</name>
-            <succession>Dmitrievna</succession>
-        </SNS>
-            <exams>
-                <exam number="1">
-                    <schedule>PPVIS</schedule>
-                    <mark>10</mark>
-                </exam>
-                <exam number="2">
-                    <schedule>MRZVIS</schedule>
-                    <mark>10</mark>
-                </exam>
-                <exam number="3">
-                    <schedule>MAOIS</schedule>
-                    <mark>6</mark>
-                </exam>
-            </exams>
-            </group>
-    </studentId>
+    
 
-    <studentId id="13">
-            <group number="021703">
-        <SNS>
-            <surname>Kozevnikova</surname>
-            <name>Anna</name>
-            <succession>Igorevna</succession>
-        </SNS>
-            <exams>
-                <exam number="1">
-                    <schedule>MAOIS</schedule>
-                    <mark>9</mark>
-                </exam>
-                <exam number="2">
-                    <schedule>PPVIS</schedule>
-                    <mark>10</mark>
-                </exam>
-                <exam number="3">
-                    <schedule>MRZVIS</schedule>
-                    <mark>5</mark>
-                </exam>
-            </exams>
-            </group>
-    </studentId>
+    
 
-    <studentId id="14">
-            <group number="021703">
-        <SNS>
-            <surname>Kozemiako</surname>
-            <name>Nikita</name>
-            <succession>Victorovich</succession>
-        </SNS>
-            <exams>
-                <exam number="1">
-                    <schedule>MRZVIS</schedule>
-                    <mark>7</mark>
-                </exam>
-                <exam number="2">
-                    <schedule>MAOIS</schedule>
-                    <mark>7</mark>
-                </exam>
-                <exam number="3">
-                    <schedule>PPVIS</schedule>
-                    <mark>7</mark>
-                </exam>
-            </exams>
-            </group>
-    </studentId>
+    
 
-    <studentId id="15">
-            <group number="021703">
-        <SNS>
-            <surname>Kolosovskiy</surname>
-            <name>Egor</name>
-            <succession>Sergeevich</succession>
-        </SNS>
-            <exams>
-                <exam number="1">
-                    <schedule>MAOIS</schedule>
-                    <mark>7</mark>
-                </exam>
-                <exam number="2">
-                    <schedule>MRZVIS</schedule>
-                    <mark>8</mark>
-                </exam>
-                <exam number="3">
-                    <schedule>PPVIS</schedule>
-                    <mark>4</mark>
-                </exam>
-            </exams>
-            </group>
-    </studentId>
+    
+
+    
 
     <studentId id="16">
         <group number="021701">
