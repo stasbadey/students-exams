@@ -1,42 +1,25 @@
-from controller.impl.student_controller_impl import StudentControllerImpl
+import os
+os.environ['KIVY_GL_BACKEND'] = 'angle_sdl2'
 
-if __name__ == '__main__':
-    print("1 - search by average mark\n"
-          "2 - search by number of group\n"
-          "3 - search by mark and subject\n"
-          "4 - delete by average mark\n"
-          "5 - delete by number of group\n"
-          "6 - delete by mark and subject")
+from kivy.app import App
+from controller.student_controller import StudentController
+from model.Model import Model
+from view.View import View
 
-    choice = int(input())
+class StudentsExamsApp(App):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.view = View()
+        self.model = Model()
+        self.controller = StudentController()
 
-    student_controller = StudentControllerImpl()
+        self.view.controller = self.controller
+        self.model.view = self.view
+        self.controller.model = self.model
 
-    if choice == 1:
-        print("type the average mark ")
-        avg_mark = int(input())
-        print(student_controller.find_student_by_average_mark(avg_mark))
-    elif choice == 2:
-        print("type group number ")
-        group_number = input()
-        print(student_controller.find_student_by_group(group_number))
-    elif choice == 3:
-        print("type mark ")
-        mark = int(input())
-        print("type subject ")
-        subject = input()
-        print(student_controller.find_student_by_mark_and_subject(mark, subject))
-    elif choice == 4:
-        print("type the average mark ")
-        avg_mark = int(input())
-        print(student_controller.delete_student_by_average_mark(avg_mark))
-    elif choice == 5:
-        print("type mark ")
-        mark = int(input())
-        print("type subject ")
-        subject = input()
-        print(student_controller.delete_student_by_mark_and_subject(mark, subject))
-    elif choice == 6:
-        print("type group number ")
-        group_number = input()
-        print(student_controller.delete_student_by_group(group_number))
+    def build(self):
+        return self.view
+
+
+if __name__ == "__main__":
+    StudentsExamsApp().run()

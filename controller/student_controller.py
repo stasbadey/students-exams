@@ -1,27 +1,21 @@
-from abc import ABC, abstractmethod
+class StudentController:
+    def __init__(self):
+        self.model = None
 
-
-class StudentController(ABC):
-    @abstractmethod
     def find_student_by_average_mark(self, average_mark: int):
-        pass
+        self.model.find_student_by_average_mark(average_mark)
 
-    @abstractmethod
     def find_student_by_mark_and_subject(self, mark: int, subject: str):
-        pass
+        self.model.find_student_by_mark_and_subject(mark, subject)
 
-    @abstractmethod
     def find_student_by_group(self, group_number: str):
-        pass
+        self.model.find_student_by_group(group_number)
 
-    @abstractmethod
     def delete_student_by_average_mark(self, average_mark: int):
-        pass
+        self.model.delete_student_by_average_mark(average_mark)
 
-    @abstractmethod
     def delete_student_by_mark_and_subject(self, mark: int, subject: str):
-        pass
+        self.model.delete_student_by_mark_and_subject(mark, subject)
 
-    @abstractmethod
     def delete_student_by_group(self, group_number: str):
-        pass
+        self.model.delete_student_by_group(group_number)

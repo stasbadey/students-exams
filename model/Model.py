@@ -1,7 +1,7 @@
 import xml.sax
 from typing import Any, List
 
-from controller.student_controller import StudentController
+
 from handler.dom.delete_by_average_mark_dom_handler import DeleteByAverageMarkDomHandler
 from handler.sax.find_student_by_average_mark_handler import FindAverageMarkHandler, FindByAverageMarkHandler
 from handler.sax.find_student_by_mark_and_subject_handler import FindStudentExamsHandler, \
@@ -12,10 +12,9 @@ from handler.util.table_fabric import TableFabric
 from model.entity.student import Student
 
 
-class StudentControllerImpl(StudentController):
-
+class Model:
     def __init__(self):
-        pass
+        self.view = None
 
     def find_student_by_average_mark(self, average_mark: int) -> List[Student]:
         handler = FindAverageMarkHandler()
@@ -23,6 +22,8 @@ class StudentControllerImpl(StudentController):
         self._open_sax_parser_connection(handler)
 
         self._count_avg_from_dict(handler.get_avgs(), average_mark)
+
+        self.view.information_output("Record found")
 
         return TableFabric.student_table_creator(FindByAverageMarkHandler.students)
 
@@ -33,12 +34,16 @@ class StudentControllerImpl(StudentController):
 
         self._parse_students_exams_from_dict(handler.get_students_exams())
 
+        self.view.information_output("Record found")
+
         return TableFabric.student_table_creator(FindStudentByMarkAndSubjectHandler.students)
 
     def find_student_by_group(self, group_number: str) -> List[Student]:
         handler = FindStudentByNumberOfGroupHandler(group_number)
 
         self._open_sax_parser_connection(handler)
+
+        self.view.information_output("Record found")
 
         return TableFabric.student_table_creator(FindStudentByNumberOfGroupHandler.students)
 
@@ -53,6 +58,8 @@ class StudentControllerImpl(StudentController):
                 dom_handler = DeleteByAverageMarkDomHandler(student_id)
                 bools.append(dom_handler.delete_student_by_student_id())
 
+        self.view.information_output("Record deleted")
+
         return TableFabric.bool_table_creator(bools)
 
     def delete_student_by_mark_and_subject(self, mark: int, subject: str) -> List[bool]:
@@ -65,6 +72,8 @@ class StudentControllerImpl(StudentController):
             dom_handler = DeleteByAverageMarkDomHandler(student_id)
             bools.append(dom_handler.delete_student_by_student_id())
 
+        self.view.information_output("Record deleted")
+
         return TableFabric.bool_table_creator(bools)
 
     def delete_student_by_group(self, group_number: str) -> List[bool]:
@@ -76,6 +85,8 @@ class StudentControllerImpl(StudentController):
         for student_id in handler.get_student_id():
             dom_handler = DeleteByAverageMarkDomHandler(student_id)
             bools.append(dom_handler.delete_student_by_student_id())
+
+        self.view.information_output("Record deleted")
 
         return TableFabric.bool_table_creator(bools)
 
